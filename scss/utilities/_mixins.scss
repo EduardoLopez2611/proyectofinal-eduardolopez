@@ -1,0 +1,6 @@
+@mixin background($bgrepeat,$bgsize,$bgattachment){
+    background-repeat: $bgrepeat;
+    background-size: $bgsize;
+    background-attachment: $bgattachment;
+    
+}

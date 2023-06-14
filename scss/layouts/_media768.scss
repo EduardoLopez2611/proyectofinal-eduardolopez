@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    header{ 
+        nav {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+            h1 {
+            font-size: 26px;
+            }
+            a{
+            font-size: 14px;
+            }
+        }
+    }
+}
+main {
+    font-size: 14px;
+}
+.main-registrarme {
+        margin: 30px 30px 50px 30px;
+        padding: 50px;
+        height: 80vh;
+        font-size: 19px;
+}
+
+.main-basquet {
+    background-size: 1024px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}

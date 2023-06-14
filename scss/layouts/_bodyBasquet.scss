@@ -1,0 +1,13 @@
+.bodyBasquet {
+    background-image: $background-secundario;
+    @include background(no-repeat,cover,fixed);
+    font-family: "Roboto", sans-serif;
+    .main-basquet{
+    color: black;
+    padding: 1em;
+        ul{
+        list-style: none;
+        text-align: center;
+        }
+    }
+}

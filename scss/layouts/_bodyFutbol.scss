@@ -1,0 +1,18 @@
+.bodyFutbol{
+    background-image: $background-terciario;
+    @include background(no-repeat,cover,fixed);
+    font-family: "Roboto", sans-serif;
+    .main-futbol {
+        color: white;
+        text-align: center;
+        article{
+            h5{
+            text-decoration: underline;
+            }
+            ul{
+                li{
+                list-style: none;}
+            }
+        }
+    }
+}

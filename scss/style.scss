@@ -1,0 +1,23 @@
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import"./base/reset";
+@import "./layouts/html";
+@import "./layouts/header";
+@import "./layouts/bodyIndex";
+@import "./layouts/bodyBasquet";
+@import "./layouts/bodyFutbol";
+@import "./layouts/main";
+@import "./layouts/h2";
+@import "./layouts/main-registrarme";
+@import "./layouts/mainIniciarSesion";
+@import "./layouts/grid-container";
+@import "./layouts/footer";
+@import "./layouts/media768";
+@import "./layouts/media612";
+@import "./layouts/media602";
+@import "./layouts/media576";
+@import "./layouts/media425";
+@import"./components/boostrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400;700&display=swap");
+/*# sourceMappingURL=style.css.map */

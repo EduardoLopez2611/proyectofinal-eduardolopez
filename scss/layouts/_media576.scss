@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+}
+.bodyBasquet{
+background-image: $backgound-movil;
+@include background(no-repeat,cover,fixed);
+.main-basquet {
+color: white;
+font-size: 10px;
+}
+}

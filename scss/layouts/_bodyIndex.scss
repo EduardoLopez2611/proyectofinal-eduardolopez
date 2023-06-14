@@ -1,0 +1,9 @@
+.bodyIndex {
+    background-image: $background-principal;
+    @include background(no-repeat,cover,fixed);
+    font-family: "Roboto", sans-serif;
+        ul{
+        list-style: none;
+        text-align: center;
+        }
+}

@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url("../assets/img/fondo-imagen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff8c00;
+  gap: 10px;
+}
+header nav h1 {
+  font-family: "Bruno Ace SC", cursive;
+  font-size: 36px;
+}
+header nav h1 a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.bodyIndex {
+  background-image: url("../assets/img/fondo-imagen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+.bodyIndex ul {
+  list-style: none;
+  text-align: center;
+}
+
+.bodyBasquet {
+  background-image: url("../assets/img/fondo-basquet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+.bodyBasquet .main-basquet {
+  color: black;
+  padding: 1em;
+}
+.bodyBasquet .main-basquet ul {
+  list-style: none;
+  text-align: center;
+}
+
+.bodyFutbol {
+  background-image: url("../assets/img/fondo-futbol.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+}
+.bodyFutbol .main-futbol {
+  color: white;
+  text-align: center;
+}
+.bodyFutbol .main-futbol article h5 {
+  text-decoration: underline;
+}
+.bodyFutbol .main-futbol article ul li {
+  list-style: none;
+}
+
+main {
+  margin: 1em;
+  font-size: 30px;
+}
+main div a img:hover {
+  padding-bottom: 20px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.main-registrarme {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+.main-registrarme form {
+  background-color: #fff6f1;
+}
+
+.mainIniciarSesion {
+  padding: 50px;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+.mainIniciarSesion form {
+  background-color: #fff6f1;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  padding: 10px 0px;
+  justify-items: center;
+}
+
+footer {
+  background-color: #ff8c00;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  header nav h1 {
+    font-size: 26px;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+}
+main {
+  font-size: 14px;
+}
+
+.main-registrarme {
+  margin: 30px 30px 50px 30px;
+  padding: 50px;
+  height: 80vh;
+  font-size: 19px;
+}
+
+.main-basquet {
+  background-size: 1024px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 612px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 602px) {
+  main .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.bodyBasquet {
+  background-image: url("../assets/img/fondo-basquet-movil.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bodyBasquet .main-basquet {
+  color: white;
+  font-size: 10px;
+}
+
+@media (max-width: 425px) {
+  header nav h1 {
+    font-size: 18px;
+  }
+  header nav a {
+    font-size: 10px;
+  }
+}
+main {
+  font-size: 11px;
+}
+main div a img {
+  margin-left: 0%;
+}
+
+.main-registrarme {
+  padding: 20px;
+  height: 50vh;
+  font-size: 12px;
+}
+
+.card a:active {
+  padding: 0.5px;
+}
+
+.card {
+  animation-name: mianimacion;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+
+@keyframes mianimacion {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
