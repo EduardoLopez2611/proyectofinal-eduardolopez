@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400;700&display=swap");
 }
 
 html {
@@ -12,23 +13,25 @@ html {
   background-attachment: fixed;
 }
 
+header {
+  background-color: #ff8c00;
+}
 header nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   padding: 10px;
-  background-color: #ff8c00;
   gap: 10px;
 }
-header nav h1 {
-  font-family: "Bruno Ace SC", cursive;
-  font-size: 36px;
+header nav a h1 {
+  @import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400;700&display=swap");
+  font-family: "Roboto", sans-serif;
 }
-header nav h1 a {
-  list-style: none;
+header nav a {
   text-decoration: none;
-  font-size: 18px;
+  color: black;
 }
 
 .bodyIndex {
@@ -90,12 +93,15 @@ h2 {
 }
 
 .main-registrarme {
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
 }
 .main-registrarme form {
   background-color: #fff6f1;
+}
+.main-registrarme form fieldset {
+  padding: 70px;
 }
 
 .mainIniciarSesion {
@@ -106,6 +112,9 @@ h2 {
 }
 .mainIniciarSesion form {
   background-color: #fff6f1;
+}
+.mainIniciarSesion form fieldset {
+  padding: 70px;
 }
 
 .grid-container {

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:wght@100;400;700&display=swap");
+
+header nav a h1{
+    text-decoration: none;
+    color: black;
+    background-color: none;
+    font-family: "Roboto", sans-serif;
+}
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+header nav div a{
+    text-decoration: none;
+    color: black;
+}
+header nav{
+    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a h1:hover{
+    transform: scale(1.1);
+}
+header nav a:hover{
+    transform: scale(1.1);
+}

@@ -1,8 +1,12 @@
 .main-registrarme {
-    height: 100vh;
+
+    min-height: 100vh;
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     form {
     background-color: #fff6f1;
+    fieldset{
+        padding: 70px;
+    }
     }
 }
